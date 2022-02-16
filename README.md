@@ -95,10 +95,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation using Yarn
 
-1. Get to [https://github.com/SarahSoutoul/bbc-airquality](https://github.com/SarahSoutoul/bbc-airquality)
+1. Get to [https://github.com/SarahSoutoul/bbc-airquality-project](https://github.com/SarahSoutoul/bbc-airquality-project)
 2. Clone the repo
    ```sh
-   git clone https://github.com/SarahSoutoul/bbc-airquality
+   git clone https://github.com/SarahSoutoul/bbc-airquality-project
    ```
 3. Install NPM packages
    ```sh
