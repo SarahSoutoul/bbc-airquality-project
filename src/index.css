@@ -1,0 +1,199 @@
+/*Header design (title,subtitle,instructions)*/
+
+html,
+body {
+  height: 100%;
+}
+
+/*PRIMARY CONTAINER*/
+
+.primary-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-width: 60%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.article-title,
+.select {
+  text-align: center;
+  border-bottom: 2px solid #d38b5d;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.select {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.article-image {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.article-intro {
+  font-size: 1.4em;
+  text-align: center;
+  background-color: #e0ae8f;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.article-info {
+  font-size: 1em;
+  text-align: center;
+  color: darkgray;
+}
+
+.languages {
+  font-size: 1.2em;
+  color: #d38b5d;
+  font-size: bold;
+  text-align: center;
+}
+
+/*SECONDARY CONTAINER*/
+
+.secondary-container,
+.methodology {
+  max-width: 60%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.article-description,
+.methodology {
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #e0ae8f;
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.article-instructions {
+  font-size: 1.2em;
+  color: darkgray;
+  text-align: center;
+}
+
+.article-compare {
+  font-size: 1em;
+  color: #d38b5d;
+  text-align: center;
+}
+
+/*TERTIARY CONTAINER*/
+
+.tertiary-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+/*BUTTONS GALLERY*/
+
+button {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: black;
+  margin: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #d38b5d;
+}
+
+button:focus {
+  background-color: #d38b5d;
+}
+
+/*OUTPUT AND IMAGE GALLERY*/
+
+.output {
+  border: 2px solid #d38b5d;
+  padding: 40px;
+  text-align: center;
+}
+
+.city-info {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: silver;
+  margin-top: 50px;
+}
+
+.city-name {
+  font-size: 2.5em;
+  color: gray;
+  border-bottom: 2px solid #d38b5d;
+  margin-top: 50px;
+}
+
+.image-gallery {
+  margin-top: 30px;
+}
+
+.cigg-img {
+  width: 8%;
+}
+
+/*MOBILE VIEW*/
+
+@media only screen and (max-width: 1280px) {
+  .primary-container,
+  .secondary-container,
+  .methodology {
+    max-width: 90%;
+  }
+
+  .primary-container {
+    grid-template-rows: none;
+  }
+
+  .article-title,
+  .select {
+    font-size: 1.6em;
+  }
+
+  .article-instructions,
+  .article-compare,
+  .article-description,
+  .article-info,
+  .methodology,
+  .article-intro {
+    font-size: 1.2em;
+  }
+
+  .tertiary-container {
+    grid-template-columns: none;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 0.7em;
+  }
+
+  .output {
+    margin-top: 20px;
+  }
+
+  .city-name {
+    font-size: 1.7em;
+  }
+}
