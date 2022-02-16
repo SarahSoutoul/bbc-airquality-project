@@ -34,7 +34,7 @@ The project can be seen in English or Hindi, with an available language selector
 
 ## About The Project
 
-[![Landing Page][project-screenshot]]
+![Landing Page][project-screenshot]
 
 ### Instructions
 
