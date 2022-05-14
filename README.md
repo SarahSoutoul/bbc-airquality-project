@@ -8,11 +8,11 @@ This interactive project allows users to select an Indian city and have their lo
 
 The project displays each city in the form of a button, which can be clicked by users to have their air quality displayed on the right hand side.
 
-The project can be seen in English or Hindi, with an available language selector at the top of the project.
+The project can be seen in English or Hindi, with an available language selector at the top of the project!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents:</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project:</a>
