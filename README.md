@@ -1,6 +1,6 @@
 Air Quality in India - Interactive Project
 
-### Simple interactive tool displaying the air quality of Indian cities in cigarettes and particulate matter. 
+### Simple interactive tool displaying the air quality of Indian cities in cigarettes and particulate matter.
 
 ## INTRODUCTION
 
@@ -8,7 +8,7 @@ This interactive project allows users to select an Indian city and have their lo
 
 The project displays each city in the form of a button, which can be clicked by users to have their air quality displayed on the right hand side.
 
-The project can be seen in English or Hindi, with an available language selector at the top of the project.
+The project can be seen in English or Hindi, with an available language selector at the top of the project!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
